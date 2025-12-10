@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { ThemeState, Preset } from '../../types';
 import { defaultTheme } from '../utils';
-import { Save, Trash2, RotateCcw, FolderOpen, MoreHorizontal, Check, ChevronDown, ChevronUp, Layout } from 'lucide-react'; // Importamos el ícono de Layout
+import { Save, Trash2, RotateCcw, FolderOpen, MoreHorizontal, Check, ChevronDown, ChevronUp } from 'lucide-react';
 
 interface PresetsProps {
   currentTheme: ThemeState;

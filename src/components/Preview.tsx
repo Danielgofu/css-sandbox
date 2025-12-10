@@ -2,11 +2,10 @@ import React, { useState } from 'react';
 import { PreviewMode, ThemeState } from '../../types';
 import { generateCSS } from '../utils';
 import { 
-  CreditCard, Bell, CheckCircle, User, Settings, ArrowRight, Search, Menu, X, 
-  Zap, Layout, Shield, Smartphone, ChevronDown, Mail, Globe, Github, Twitter,
+  CreditCard, Bell, CheckCircle, User, Settings, ArrowRight, Menu, X, 
+  Zap, Layout, Shield, Smartphone, ChevronDown, Globe, Github, Twitter,
   Tablet, Monitor, BarChart3, Users, Calendar, Star, Quote, Play, SkipForward, 
-  SkipBack, MousePointerClick, Sliders, Download, HelpCircle,
-  ArrowDown
+  SkipBack, Sliders, Download
 } from 'lucide-react';
 
 interface PreviewProps {
