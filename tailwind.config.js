@@ -1,6 +1,7 @@
 export default {
   content: [
     "./index.html",
+    "./index.tsx",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   darkMode: 'class',
@@ -32,4 +33,5 @@ export default {
     }
   },
   plugins: [],
+
 }
