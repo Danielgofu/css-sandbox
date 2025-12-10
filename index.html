@@ -1,86 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="icon" href="./src/assets/favicon.png" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSS Sandbox Pro</title>
-    <meta name="description" content="A professional CSS visual editor to create, test, and export accessible design systems. Preview changes in real-time on Bento Grids and Landing Pages." />
-    <meta name="theme-color" content="#111827" />
-    <link rel="canonical" href="https://danielgofu.github.io/css-sandbox/" />
-
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://danielgofu.github.io/css-sandbox/" />
-    <meta property="og:title" content="CSS Sandbox Pro - Design System Generator" />
-    <meta property="og:description" content="Generate accessible design systems in real-time. Export accessible CSS variables instantly." />
-
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://danielgofu.github.io/css-sandbox/" />
-    <meta property="twitter:title" content="CSS Sandbox Pro - Design System Generator" />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Playfair+Display:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    
-    <style>
-      /* Custom Scrollbar */
-      ::-webkit-scrollbar {
-        width: 8px;
-        height: 8px;
-      }
-      ::-webkit-scrollbar-track {
-        background: #111827; 
-      }
-      ::-webkit-scrollbar-thumb {
-        background: #374151; 
-        border-radius: 4px;
-      }
-      ::-webkit-scrollbar-thumb:hover {
-        background: #4b5563; 
-      }
-      
-      .sandbox-preview {
-        transition: all 0.2s ease-in-out;
-      }
-      
-      /* Accessibility: Focus Visible */
-      :focus-visible {
-        outline: 2px solid #3b82f6;
-        outline-offset: 2px;
-      }
-      
-      .touch-target {
-        min-height: 44px;
-        min-width: 44px;
-      }
-    </style>
-    
-    <!-- Structured Data (JSON-LD) -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebApplication",
-      "name": "CSS Sandbox Pro",
-      "url": "https://danielgofu.github.io/css-sandbox/",
-      "description": "A comprehensive CSS visual editor and generator.",
-      "applicationCategory": "DeveloperApplication",
-      "operatingSystem": "All",
-      "offers": {
-        "@type": "Offer",
-        "price": "0",
-        "priceCurrency": "USD"
-      },
-      "author": {
-        "@type": "Organization",
-        "name": "CSS Sandbox Team"
-      }
-    }
-    </script>
   </head>
-  <body class="bg-gray-950 text-white antialiased overflow-hidden">
+  <body>
     <div id="root"></div>
-    <script type="module" src="./src/index.tsx"></script>
+    <script type="module" src="/src/index.tsx"></script>
   </body>
 </html>
