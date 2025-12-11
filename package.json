@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "deploy": "npm run build && powershell -Command \"Remove-Item -Recurse -Force ./docs; Copy-Item -Recurse -Force ./dist/* ./docs/\""
+    "deploy": "npm run build && powershell -Command \"Remove-Item -Recurse -Force ./docs; New-Item -ItemType Directory -Path ./docs; Copy-Item -Recurse -Force ./dist/assets ./docs/; Copy-Item -Force ./dist/index.html ./docs/; Copy-Item -Force ./dist/favicon.png ./docs/; Copy-Item -Force ./dist/robots.txt ./docs/; Copy-Item -Force ./dist/sitemap.xml ./docs/\""
   },
   "dependencies": {
     "lucide-react": "^0.344.0",
