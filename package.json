@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "npm run build && powershell -Command \"Remove-Item -Recurse -Force ./docs; Copy-Item -Recurse -Force ./dist/* ./docs/\""
   },
   "dependencies": {
     "lucide-react": "^0.344.0",
