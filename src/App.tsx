@@ -55,7 +55,7 @@ const App: React.FC = () => {
       */}
 
       {/* Sidebar Controls */}
-      <div className="order-2 md:order-1 flex flex-col h-[45vh] md:h-full border-t md:border-t-0 md:border-r border-gray-800 z-10 shadow-xl bg-gray-900 w-full md:w-80 shrink-0">
+      <div className="order-2 md:order-1 flex flex-col h-auto md:h-full border-t md:border-t-0 md:border-r border-gray-800 z-10 shadow-xl bg-gray-900 w-full md:w-80 shrink-0">
         <Controls theme={theme} setTheme={setTheme} />
         <Presets currentTheme={theme} onLoad={setTheme} />
       </div>
