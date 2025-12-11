@@ -8,7 +8,7 @@
 [![TailwindCSS](https://img.shields.io/badge/tailwindcss-3.x-38bdf8?logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
 
 <p align="center">
-    <img src="docs/assets/index-EmUEJmfX.css" alt="CSS Sandbox Pro Screenshot" width="700"/>
+    <img src="docs/screenshots/main-screenshot.png" alt="CSS Sandbox Pro Screenshot" width="700"/>
 </p>
 
 <p align="center">
@@ -86,7 +86,8 @@ npm run dev
 ## 🖼️ Screenshots
 
 <p align="center">
-    <img src="docs/assets/index-DlgLtgc5.js" alt="Editor Screenshot" width="700"/>
+    <!-- Puedes agregar más capturas en docs/screenshots/ y referenciarlas aquí -->
+    <img src="docs/screenshots/editor-screenshot.png" alt="Editor Screenshot" width="700"/>
 </p>
 
 ---
@@ -132,3 +133,10 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 <p align="center">
     <i>Made with ❤️ by <a href="https://github.com/Danielgofu">Danielgofu</a></i>
 </p>
+
+---
+
+## 👤 Autor y Portafolio
+
+- Hecho por [Danielgofu](https://github.com/Danielgofu)
+- Portafolio: [danielgofu.dev](https://danielgofu.dev)
