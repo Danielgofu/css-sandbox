@@ -83,15 +83,6 @@ npm run dev
 
 ---
 
-## 🖼️ Screenshots
-
-<p align="center">
-    <!-- Puedes agregar más capturas en docs/screenshots/ y referenciarlas aquí -->
-    <img src="docs/screenshots/editor-screenshot.png" alt="Editor Screenshot" width="700"/>
-</p>
-
----
-
 ## 🧪 Testing
 
 Run tests with:
